@@ -1,6 +1,7 @@
 ﻿namespace Valorant;
 
-public class Player
+public interface Player
 {
-    
+    public bool IsDead { get; set; }
+
 }
